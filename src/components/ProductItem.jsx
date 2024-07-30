@@ -6,11 +6,13 @@ const ProductItem = ({ NombreProducto, Descripcion, DetalleDescripcion, Imagen, 
   return (
     <div className="product-container">
       <div className="product-info">
-        <h2>{NombreProducto} <img src={ImagenMarca} alt={`${NombreProducto} Marca`} className="brand-image" /> </h2>
-        <p>{Descripcion}</p>
-        <p>{DetalleDescripcion}</p>
+        <h2 className="product-title">{NombreProducto} </h2>
+        <p className="product-description" >{Descripcion}</p>
+        <p className="product-detalleDescription" >{DetalleDescripcion}</p>
+        <img src={ImagenMarca} alt={`${NombreProducto} Marca`} className="brand-image" /> 
       </div>
       <img src={Imagen} alt={NombreProducto} className="product-image" />
+
     </div>
   );
 }
