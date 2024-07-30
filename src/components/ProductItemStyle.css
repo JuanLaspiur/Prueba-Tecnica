@@ -41,3 +41,12 @@
     transform: scale(1.02);
     opacity: 1;
   }
+
+  @media (max-width: 1990px) {
+    .product-container {
+      width: 100%;
+      margin: 0px;
+      margin-top: 10px;
+    }
+
+}

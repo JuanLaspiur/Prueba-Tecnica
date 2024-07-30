@@ -1,6 +1,7 @@
 import React from "react";
 import './ProductItemStyle.css';
 
+
 const ProductItem = ({ NombreProducto, Descripcion, DetalleDescripcion, Imagen, ImagenMarca }) => {
   return (
     <div className="product-container">
