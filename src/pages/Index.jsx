@@ -57,6 +57,7 @@ function Index() {
               DetalleDescripcion={product.DetalleDescripcion}
               Imagen={product.Imagen}
               ImagenMarca={product.ImagenMarca}
+              Precio={product.Precio}
             />
           ))
         ) : (
