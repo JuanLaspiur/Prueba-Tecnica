@@ -1,0 +1,12 @@
+/* styles.css */
+.listContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1990px) {
+    .listContainer {
+      flex-direction: column;
+    }
+  }
